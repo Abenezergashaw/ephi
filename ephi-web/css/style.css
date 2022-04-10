@@ -1,0 +1,164 @@
+body{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.pull-right{
+	float: right;
+}
+.pull-left{
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+#navbar{
+	background-color: #445187;
+	min-height: 60px;
+}
+#navbar #brand{
+position: relative;
+}
+#navbar h2{
+	position: absolute;
+	font-size: 25px;
+	margin: 0;
+ 	top: 15px;
+ 	left: 70px;
+ 	color: #fff;
+}
+#navbar img{
+	border-radius: 50%;
+}
+#navbar ul{
+	margin: 0px;
+	list-style: none;
+	margin-top: 15px;
+
+}
+#navbar ul li{
+	display: inline;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 15px;
+
+}
+#navbar ul li a:hover{
+	color: black;
+}
+#landing{
+	background: url(../images/e19.jpg);
+	min-height: 200px;
+	background-position: 10% 20%;
+	margin-top: 5px;
+	border: 10px solid #445187;
+}
+#welcome{
+	width: 45%;
+	float: left;
+	margin-right: 10px;
+	box-sizing: border-box;
+	border: 5px solid #445187;
+	margin-top: 5px;
+	align-content: center;
+}
+#welcome h2,p{
+	text-align: center;
+	color: #445187;
+	font-size: 25px;
+}
+#welcome span{
+	font-size: 35px;
+	color: #FF8247;
+	line-height: 1.5em;
+	cursor: pointer;
+}
+#welcome a{
+	margin: auto;
+	color: #FF8247;
+}
+#welcome a:hover{
+	color: #445187;
+}
+#marquee-try{
+	width: 45%;
+	float: right;
+	margin-left: 10px;
+	box-sizing: border-box;
+	border: 5px solid #445187;
+	margin-top: 5px;
+	align-content: center;
+}
+#marquee-try p{
+	min-height: 129px;
+}
+.container-images{
+	width: 75%;
+	float: left;
+}
+.images{
+	margin: 10px;
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	background: #f2f2f2;
+}
+.container-text{
+	box-sizing: border-box;
+	width: 25%;
+	float: right;
+	margin-top: 5px;
+	text-align: center;
+}
+.container-text p{
+	line-height: 2em;
+	text-decoration: underline;
+}
+#tedi{
+	line-height: 1.5em;
+	font-size: 20px;
+	text-decoration: none;
+}
+#navbar ul li .active{
+	background: #fff;
+	color: #000;
+}
+@media(max-width: 600px){
+	.container{
+		width: 90%;
+	}
+	#navbar h2{
+		display: none;
+	}
+	#navbar ul{
+		float: none;
+	}
+	.container-images{
+		float: none;
+	}
+	.container-text{
+		float: none;
+		margin: auto;
+	}
+	.images{
+		margin: auto;
+		float: none;
+	}
+	#welcome{
+		float: none;
+		margin: auto;
+	}
+	#marquee-try{
+		float: none;
+		margin: auto;
+	}
+}
